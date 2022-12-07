@@ -1,6 +1,6 @@
 ﻿namespace FinalProject
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.textBoxOutput = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // textBoxOutput
+            // 
+            this.textBoxOutput.Location = new System.Drawing.Point(458, 180);
+            this.textBoxOutput.Multiline = true;
+            this.textBoxOutput.Name = "textBoxOutput";
+            this.textBoxOutput.Size = new System.Drawing.Size(306, 241);
+            this.textBoxOutput.TabIndex = 0;
+            this.textBoxOutput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.textBoxOutput);
+            this.Name = "MainForm";
+            this.Text = "Splatoon Gear Calculator";
+            this.Load += new System.EventHandler(this.mainFormLoad);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private TextBox textBoxOutput;
     }
 }

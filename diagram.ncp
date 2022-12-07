@@ -1,0 +1,83 @@
+<Project>
+  <Name>FinalProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>Final</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>Gear</Name>
+        <Access>Public</Access>
+        <Location left="137" top="169" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string main</Member>
+        <Member type="Field">private string sub1</Member>
+        <Member type="Field">private string sub2</Member>
+        <Member type="Field">private string sub3</Member>
+        <Member type="Property">public string Main { get; set; }</Member>
+        <Member type="Property">public string Sub1 { get; set; }</Member>
+        <Member type="Property">public string Sub2 { get; set; }</Member>
+        <Member type="Property">public string Sub3 { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Headgear</Name>
+        <Access>Public</Access>
+        <Location left="451" top="220" />
+        <Size width="347" height="115" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Headgear()</Member>
+        <Member type="Constructor">public Headgear(string main, string sub1, string sub2, string sub3)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Shirt</Name>
+        <Access>Public</Access>
+        <Location left="451" top="56" />
+        <Size width="347" height="118" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Shirt()</Member>
+        <Member type="Constructor">public Shirt(string main, string sub1, string sub2, string sub3)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Shoes</Name>
+        <Access>Public</Access>
+        <Location left="451" top="362" />
+        <Size width="347" height="131" />
+        <Collapsed>False</Collapsed>
+        <Member type="Constructor">public Shoes()</Member>
+        <Member type="Constructor">public Shoes(string main, string sub1, string sub2, string sub3)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Weapon</Name>
+        <Access>Public</Access>
+        <Location left="895" top="171" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private string mainWeapon</Member>
+        <Member type="Field">private string subWeapon</Member>
+        <Member type="Field">private int specialPoints</Member>
+        <Member type="Property">public int MainWeapon { get; set; }</Member>
+        <Member type="Property">public string subWeapon { get; set; }</Member>
+        <Member type="Property">public int SpecialPoints { get; set; }</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="2" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
