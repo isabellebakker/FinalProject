@@ -8,10 +8,10 @@ namespace FinalProject.Final
 	{
 		public Shoes()
 		{
-            Main = "Nothing";
-            Sub1 = "Nothing";
-            Sub2 = "Nothing";
-            Sub3 = "Nothing";
+            Main = "No Ability";
+            Sub1 = "No Ability";
+            Sub2 = "No Ability";
+            Sub3 = "No Ability";
         }
 
 		public Shoes(string main, string sub1, string sub2, string sub3)
