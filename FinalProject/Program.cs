@@ -11,7 +11,11 @@ namespace FinalProject
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+            Console.WriteLine("Commit");
             Application.Run(new Form1());
+
+
+            //commit
         }
     }
 }
