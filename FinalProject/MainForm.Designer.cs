@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.textBoxOutput = new System.Windows.Forms.TextBox();
             this.headgearMainDropdown = new System.Windows.Forms.ComboBox();
             this.buttonCalc = new System.Windows.Forms.Button();
             this.headgearSub1Dropdown = new System.Windows.Forms.ComboBox();
@@ -69,6 +68,49 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.abtbInkSaverMain = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.abtbInkSaverSub = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.abtbInkRecoveryUp = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.abtbRunSpeedUp = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.abtbSwimSpeedUp = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.abtbSpecialChargeUp = new System.Windows.Forms.TextBox();
+            this.abtbSpecialSaver = new System.Windows.Forms.TextBox();
+            this.abtbSpecialPowerUp = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.abtbQuickRespawn = new System.Windows.Forms.TextBox();
+            this.abtbQuickSuperJump = new System.Windows.Forms.TextBox();
+            this.abtbSubPowerUp = new System.Windows.Forms.TextBox();
+            this.abtbIntensifyAction = new System.Windows.Forms.TextBox();
+            this.abtbSubResistanceUp = new System.Windows.Forms.TextBox();
+            this.abtbInkResistanceUp = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox19 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -82,16 +124,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBoxOutput
-            // 
-            this.textBoxOutput.Location = new System.Drawing.Point(755, 381);
-            this.textBoxOutput.Multiline = true;
-            this.textBoxOutput.Name = "textBoxOutput";
-            this.textBoxOutput.Size = new System.Drawing.Size(149, 29);
-            this.textBoxOutput.TabIndex = 0;
-            this.textBoxOutput.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // headgearMainDropdown
             // 
@@ -126,9 +173,9 @@
             // 
             // buttonCalc
             // 
-            this.buttonCalc.Location = new System.Drawing.Point(523, 380);
+            this.buttonCalc.Location = new System.Drawing.Point(199, 325);
             this.buttonCalc.Name = "buttonCalc";
-            this.buttonCalc.Size = new System.Drawing.Size(173, 29);
+            this.buttonCalc.Size = new System.Drawing.Size(151, 29);
             this.buttonCalc.TabIndex = 2;
             this.buttonCalc.Text = "Calculate My Gear!";
             this.buttonCalc.UseVisualStyleBackColor = true;
@@ -454,7 +501,7 @@
             "Goo Tuber",
             "H-3 Nozzlenose",
             "Heavy Splatling",
-            "Hydro Splatling",
+            "Hydra Splatling",
             "Inkbrush",
             "Inkbrush Nouveau",
             "Jet Squelcher",
@@ -492,9 +539,9 @@
             "Tri-Stringer",
             "Undercover Brella",
             "Zink Mini Splatling"});
-            this.weaponDropdown.Location = new System.Drawing.Point(991, 382);
+            this.weaponDropdown.Location = new System.Drawing.Point(638, 326);
             this.weaponDropdown.Name = "weaponDropdown";
-            this.weaponDropdown.Size = new System.Drawing.Size(158, 28);
+            this.weaponDropdown.Size = new System.Drawing.Size(250, 28);
             this.weaponDropdown.TabIndex = 14;
             // 
             // pictureBox1
@@ -747,12 +794,461 @@
             this.pictureBox13.TabIndex = 39;
             this.pictureBox13.TabStop = false;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Arial Rounded MT Bold", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(491, 327);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(141, 27);
+            this.label13.TabIndex = 40;
+            this.label13.Text = "Weapon Kit";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            // 
+            // abtbInkSaverMain
+            // 
+            this.abtbInkSaverMain.Location = new System.Drawing.Point(769, 432);
+            this.abtbInkSaverMain.Name = "abtbInkSaverMain";
+            this.abtbInkSaverMain.ReadOnly = true;
+            this.abtbInkSaverMain.Size = new System.Drawing.Size(113, 27);
+            this.abtbInkSaverMain.TabIndex = 41;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(769, 408);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(113, 21);
+            this.label14.TabIndex = 42;
+            this.label14.Text = "Main Ink Cost";
+            // 
+            // abtbInkSaverSub
+            // 
+            this.abtbInkSaverSub.Location = new System.Drawing.Point(769, 497);
+            this.abtbInkSaverSub.Name = "abtbInkSaverSub";
+            this.abtbInkSaverSub.ReadOnly = true;
+            this.abtbInkSaverSub.Size = new System.Drawing.Size(113, 27);
+            this.abtbInkSaverSub.TabIndex = 43;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(769, 473);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(106, 21);
+            this.label15.TabIndex = 44;
+            this.label15.Text = "Sub Ink Cost";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // abtbInkRecoveryUp
+            // 
+            this.abtbInkRecoveryUp.Location = new System.Drawing.Point(59, 432);
+            this.abtbInkRecoveryUp.Name = "abtbInkRecoveryUp";
+            this.abtbInkRecoveryUp.ReadOnly = true;
+            this.abtbInkRecoveryUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbInkRecoveryUp.TabIndex = 45;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(64, 408);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(108, 21);
+            this.label16.TabIndex = 46;
+            this.label16.Text = "Ink Recovery";
+            // 
+            // abtbRunSpeedUp
+            // 
+            this.abtbRunSpeedUp.Location = new System.Drawing.Point(59, 497);
+            this.abtbRunSpeedUp.Name = "abtbRunSpeedUp";
+            this.abtbRunSpeedUp.ReadOnly = true;
+            this.abtbRunSpeedUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbRunSpeedUp.TabIndex = 47;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(72, 473);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(90, 21);
+            this.label17.TabIndex = 48;
+            this.label17.Text = "Run Speed";
+            // 
+            // abtbSwimSpeedUp
+            // 
+            this.abtbSwimSpeedUp.Location = new System.Drawing.Point(59, 564);
+            this.abtbSwimSpeedUp.Name = "abtbSwimSpeedUp";
+            this.abtbSwimSpeedUp.ReadOnly = true;
+            this.abtbSwimSpeedUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbSwimSpeedUp.TabIndex = 49;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(64, 540);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(103, 21);
+            this.label18.TabIndex = 50;
+            this.label18.Text = "Swim Speed";
+            // 
+            // abtbSpecialChargeUp
+            // 
+            this.abtbSpecialChargeUp.Location = new System.Drawing.Point(237, 433);
+            this.abtbSpecialChargeUp.Name = "abtbSpecialChargeUp";
+            this.abtbSpecialChargeUp.ReadOnly = true;
+            this.abtbSpecialChargeUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbSpecialChargeUp.TabIndex = 51;
+            // 
+            // abtbSpecialSaver
+            // 
+            this.abtbSpecialSaver.Location = new System.Drawing.Point(237, 498);
+            this.abtbSpecialSaver.Name = "abtbSpecialSaver";
+            this.abtbSpecialSaver.ReadOnly = true;
+            this.abtbSpecialSaver.Size = new System.Drawing.Size(113, 27);
+            this.abtbSpecialSaver.TabIndex = 52;
+            // 
+            // abtbSpecialPowerUp
+            // 
+            this.abtbSpecialPowerUp.Location = new System.Drawing.Point(237, 564);
+            this.abtbSpecialPowerUp.Name = "abtbSpecialPowerUp";
+            this.abtbSpecialPowerUp.ReadOnly = true;
+            this.abtbSpecialPowerUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbSpecialPowerUp.TabIndex = 53;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label19.ForeColor = System.Drawing.Color.Black;
+            this.label19.Location = new System.Drawing.Point(232, 409);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(123, 21);
+            this.label19.TabIndex = 54;
+            this.label19.Text = "Special Charge";
+            this.label19.Click += new System.EventHandler(this.label19_Click);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label20.ForeColor = System.Drawing.Color.Black;
+            this.label20.Location = new System.Drawing.Point(237, 474);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(103, 21);
+            this.label20.TabIndex = 55;
+            this.label20.Text = "Special Lost";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label21.ForeColor = System.Drawing.Color.Black;
+            this.label21.Location = new System.Drawing.Point(237, 540);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(117, 21);
+            this.label21.TabIndex = 56;
+            this.label21.Text = "Special Power";
+            // 
+            // abtbQuickRespawn
+            // 
+            this.abtbQuickRespawn.Location = new System.Drawing.Point(415, 432);
+            this.abtbQuickRespawn.Name = "abtbQuickRespawn";
+            this.abtbQuickRespawn.ReadOnly = true;
+            this.abtbQuickRespawn.Size = new System.Drawing.Size(113, 27);
+            this.abtbQuickRespawn.TabIndex = 57;
+            // 
+            // abtbQuickSuperJump
+            // 
+            this.abtbQuickSuperJump.Location = new System.Drawing.Point(415, 497);
+            this.abtbQuickSuperJump.Name = "abtbQuickSuperJump";
+            this.abtbQuickSuperJump.ReadOnly = true;
+            this.abtbQuickSuperJump.Size = new System.Drawing.Size(113, 27);
+            this.abtbQuickSuperJump.TabIndex = 58;
+            // 
+            // abtbSubPowerUp
+            // 
+            this.abtbSubPowerUp.Location = new System.Drawing.Point(592, 434);
+            this.abtbSubPowerUp.Name = "abtbSubPowerUp";
+            this.abtbSubPowerUp.ReadOnly = true;
+            this.abtbSubPowerUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbSubPowerUp.TabIndex = 59;
+            // 
+            // abtbIntensifyAction
+            // 
+            this.abtbIntensifyAction.Location = new System.Drawing.Point(415, 563);
+            this.abtbIntensifyAction.Name = "abtbIntensifyAction";
+            this.abtbIntensifyAction.ReadOnly = true;
+            this.abtbIntensifyAction.Size = new System.Drawing.Size(113, 27);
+            this.abtbIntensifyAction.TabIndex = 60;
+            // 
+            // abtbSubResistanceUp
+            // 
+            this.abtbSubResistanceUp.Location = new System.Drawing.Point(592, 499);
+            this.abtbSubResistanceUp.Name = "abtbSubResistanceUp";
+            this.abtbSubResistanceUp.ReadOnly = true;
+            this.abtbSubResistanceUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbSubResistanceUp.TabIndex = 61;
+            // 
+            // abtbInkResistanceUp
+            // 
+            this.abtbInkResistanceUp.Location = new System.Drawing.Point(592, 565);
+            this.abtbInkResistanceUp.Name = "abtbInkResistanceUp";
+            this.abtbInkResistanceUp.ReadOnly = true;
+            this.abtbInkResistanceUp.Size = new System.Drawing.Size(113, 27);
+            this.abtbInkResistanceUp.TabIndex = 62;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label22.ForeColor = System.Drawing.Color.Black;
+            this.label22.Location = new System.Drawing.Point(412, 408);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(120, 21);
+            this.label22.TabIndex = 63;
+            this.label22.Text = "Respawn Time";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label23.ForeColor = System.Drawing.Color.Black;
+            this.label23.Location = new System.Drawing.Point(416, 473);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(112, 21);
+            this.label23.TabIndex = 64;
+            this.label23.Text = "S. Jump Time";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label24.ForeColor = System.Drawing.Color.Black;
+            this.label24.Location = new System.Drawing.Point(415, 539);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(108, 21);
+            this.label24.TabIndex = 65;
+            this.label24.Text = "Action Speed";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(602, 410);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(91, 21);
+            this.label25.TabIndex = 66;
+            this.label25.Text = "Sub Power";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.Location = new System.Drawing.Point(586, 475);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(126, 21);
+            this.label26.TabIndex = 67;
+            this.label26.Text = "Sub Resistance";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Bahnschrift", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(590, 541);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(121, 21);
+            this.label27.TabIndex = 68;
+            this.label27.Text = "Ink Resistance";
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
+            this.pictureBox14.Location = new System.Drawing.Point(1, 408);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox14.TabIndex = 69;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
+            this.pictureBox15.Location = new System.Drawing.Point(1, 473);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox15.TabIndex = 70;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
+            this.pictureBox16.Location = new System.Drawing.Point(1, 539);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox16.TabIndex = 71;
+            this.pictureBox16.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
+            this.pictureBox17.Location = new System.Drawing.Point(178, 408);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox17.TabIndex = 72;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
+            this.pictureBox18.Location = new System.Drawing.Point(178, 474);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox18.TabIndex = 73;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox19
+            // 
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
+            this.pictureBox19.Location = new System.Drawing.Point(178, 540);
+            this.pictureBox19.Name = "pictureBox19";
+            this.pictureBox19.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox19.TabIndex = 74;
+            this.pictureBox19.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
+            this.pictureBox20.Location = new System.Drawing.Point(356, 408);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox20.TabIndex = 75;
+            this.pictureBox20.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(356, 474);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox21.TabIndex = 76;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(356, 540);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox22.TabIndex = 77;
+            this.pictureBox22.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(534, 409);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox23.TabIndex = 78;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(534, 474);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox24.TabIndex = 79;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(534, 539);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox25.TabIndex = 80;
+            this.pictureBox25.TabStop = false;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
+            this.pictureBox26.Location = new System.Drawing.Point(711, 410);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox26.TabIndex = 81;
+            this.pictureBox26.TabStop = false;
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(711, 475);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(52, 52);
+            this.pictureBox27.TabIndex = 82;
+            this.pictureBox27.TabStop = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1203, 450);
+            this.ClientSize = new System.Drawing.Size(905, 598);
+            this.Controls.Add(this.pictureBox27);
+            this.Controls.Add(this.pictureBox26);
+            this.Controls.Add(this.pictureBox25);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
+            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.pictureBox21);
+            this.Controls.Add(this.pictureBox20);
+            this.Controls.Add(this.pictureBox19);
+            this.Controls.Add(this.pictureBox18);
+            this.Controls.Add(this.pictureBox17);
+            this.Controls.Add(this.pictureBox16);
+            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.pictureBox14);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.label23);
+            this.Controls.Add(this.label22);
+            this.Controls.Add(this.abtbInkResistanceUp);
+            this.Controls.Add(this.abtbSubResistanceUp);
+            this.Controls.Add(this.abtbIntensifyAction);
+            this.Controls.Add(this.abtbSubPowerUp);
+            this.Controls.Add(this.abtbQuickSuperJump);
+            this.Controls.Add(this.abtbQuickRespawn);
+            this.Controls.Add(this.label21);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.label19);
+            this.Controls.Add(this.abtbSpecialPowerUp);
+            this.Controls.Add(this.abtbSpecialSaver);
+            this.Controls.Add(this.abtbSpecialChargeUp);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.abtbSwimSpeedUp);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.abtbRunSpeedUp);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.abtbInkRecoveryUp);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.abtbInkSaverSub);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.abtbInkSaverMain);
+            this.Controls.Add(this.label13);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -780,7 +1276,6 @@
             this.Controls.Add(this.headgearSub1Dropdown);
             this.Controls.Add(this.buttonCalc);
             this.Controls.Add(this.headgearMainDropdown);
-            this.Controls.Add(this.textBoxOutput);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
@@ -809,14 +1304,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private TextBox textBoxOutput;
         private ComboBox headgearMainDropdown;
         private Button buttonCalc;
         private ComboBox headgearSub1Dropdown;
@@ -856,5 +1363,48 @@
         private Label label11;
         private Label label12;
         private PictureBox pictureBox13;
+        private Label label13;
+        private TextBox abtbInkSaverMain;
+        private Label label14;
+        private TextBox abtbInkSaverSub;
+        private Label label15;
+        private TextBox abtbInkRecoveryUp;
+        private Label label16;
+        private TextBox abtbRunSpeedUp;
+        private Label label17;
+        private TextBox abtbSwimSpeedUp;
+        private Label label18;
+        private TextBox abtbSpecialChargeUp;
+        private TextBox abtbSpecialSaver;
+        private TextBox abtbSpecialPowerUp;
+        private Label label19;
+        private Label label20;
+        private Label label21;
+        private TextBox abtbQuickRespawn;
+        private TextBox abtbQuickSuperJump;
+        private TextBox abtbSubPowerUp;
+        private TextBox abtbIntensifyAction;
+        private TextBox abtbSubResistanceUp;
+        private TextBox abtbInkResistanceUp;
+        private Label label22;
+        private Label label23;
+        private Label label24;
+        private Label label25;
+        private Label label26;
+        private Label label27;
+        private PictureBox pictureBox14;
+        private PictureBox pictureBox15;
+        private PictureBox pictureBox16;
+        private PictureBox pictureBox17;
+        private PictureBox pictureBox18;
+        private PictureBox pictureBox19;
+        private PictureBox pictureBox20;
+        private PictureBox pictureBox21;
+        private PictureBox pictureBox22;
+        private PictureBox pictureBox23;
+        private PictureBox pictureBox24;
+        private PictureBox pictureBox25;
+        private PictureBox pictureBox26;
+        private PictureBox pictureBox27;
     }
 }
